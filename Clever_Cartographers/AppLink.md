@@ -1,3 +1,3 @@
 Hosted in ArcGIS Online:
 
-- ArcGIS Hub website: [https://esricanada-ce.github.io/ecce-app-challenge-2021/UTM_Zone_17N/app/](https://esricanada-ce.github.io/ecce-app-challenge-2021/UTM_Zone_17N/app/)
+- ArcGIS Hub website: [https://clever-cartophers-toronto-heat-response-utoronto.hub.arcgis.com/](https://clever-cartophers-toronto-heat-response-utoronto.hub.arcgis.com/)
