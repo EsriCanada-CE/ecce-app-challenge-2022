@@ -1,0 +1,338 @@
+{
+  "form": "<form autocomplete=\"off\" novalidate=\"novalidate\" class=\"or clearfix\" dir=\"ltr\" id=\"survey\">\n<!--This form was created by transforming an ODK/OpenRosa-flavored (X)Form using an XSL stylesheet created by Enketo LLC.--><section class=\"form-logo\"></section><h3 dir=\"auto\" id=\"form-title\">&lt;p style='text-align:center' title='Required: Type of Hazard'&gt;Required: Type of Hazard&lt;/p&gt;</h3>\n  \n  \n    <label class=\"question non-select \"><span lang=\"\" class=\"or-hint active\" id=\"idp47772736\">&lt;p&gt;You can report an emergency 24/7. If the issue is an immediate risk to public safety, please call 911.&lt;/p&gt;</span><input type=\"text\" name=\"/form/generated_note_surveyDescription\" data-type-xml=\"string\" readonly=\"\"></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\" id=\"idp47773744\">Submit</span><input type=\"text\" name=\"/form/generated_note_form_submit_text\" data-type-xml=\"string\" readonly=\"\"></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\" id=\"idp47766624\">&lt;a target='_blank' style='color:#FFFFFF;' href='https://www.esri.com/products/survey123'&gt;Powered by ArcGIS Survey123&lt;/a&gt;</span><input type=\"text\" name=\"/form/generated_note_form_footer\" data-type-xml=\"string\" readonly=\"\"></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\" id=\"idp47767632\">&lt;p style=\"text-align:center;\"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=\"text-align:center;\"&gt;&lt;img alt=\"null\" src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGZpbGw9IiMzMTg3MkUiIGN4PSIzMiIgY3k9IjMyIiByPSIzMiIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0yMi42NjEgMzAuMjQ2bDUuMTgyIDQuOTg3TDQxLjU1MiAyMiA0NSAyNS40NjEgMjcuNzQ3IDQyIDE5IDMzLjQ5OHoiLz48L2c+PC9zdmc+\"&gt;&lt;/p&gt;&lt;p style=\"text-align:center;\"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=\"text-align:center;\"&gt;&lt;strong style=\"font-size:16px;\"&gt;Great! Your report was sent successfully. Thanks.&lt;/strong&gt;&lt;/p&gt;</span><input type=\"text\" name=\"/form/generated_note_prompt_submitted\" data-type-xml=\"string\" readonly=\"\"></label>\n    <fieldset class=\"question simple-select  type-singleChoice\"><fieldset><legend><span lang=\"\" class=\"question-label active\" id=\"idp47768640\">Type</span><span class=\"required\" id=\"idp47116496\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/form/type\" data-name=\"/form/type\" value=\"road_water\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47769360\">Water over road</span></label><label class=\"\"><input type=\"radio\" name=\"/form/type\" data-name=\"/form/type\" value=\"hydro_down\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47762528\">Downed hydro pole</span></label><label class=\"\"><input type=\"radio\" name=\"/form/type\" data-name=\"/form/type\" value=\"tree_down\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47763824\">Downed tree</span></label><label class=\"\"><input type=\"radio\" name=\"/form/type\" data-name=\"/form/type\" value=\"road_damage\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47765120\">Damaged road surface</span></label><label class=\"\"><input type=\"radio\" name=\"/form/type\" data-name=\"/form/type\" value=\"road_debris\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47524816\">Debris on road</span></label><label class=\"\"><input type=\"radio\" name=\"/form/type\" data-name=\"/form/type\" value=\"bridge_collapsed\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47526112\">Collapsed bridge</span></label><label class=\"\"><input type=\"radio\" name=\"/form/type\" data-name=\"/form/type\" value=\"other\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47527408\">Other</span></label></div></fieldset><span lang=\"\" class=\"or-required-msg active\" id=\"idp47116384\">This is a required question</span></fieldset>\n    <label class=\"question or-branch pre-init non-select \"><span lang=\"\" class=\"question-label active\" id=\"idp47189088\">Other</span><input type=\"text\" name=\"/form/type_other\" data-relevant=\"selected( /form/type , 'other')\" data-type-xml=\"string\"></label>\n    <fieldset class=\"question simple-select  type-singleChoice\"><fieldset><legend><span lang=\"\" class=\"question-label active\" id=\"idp47190096\">Required: Can you pass through the hazard?</span><span class=\"required\" id=\"idp47117408\">*</span>\n                    </legend><div class=\"option-wrapper\"><label class=\"\"><input type=\"radio\" name=\"/form/passable\" data-name=\"/form/passable\" value=\"2\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47190816\">Yes</span></label><label class=\"\"><input type=\"radio\" name=\"/form/passable\" data-name=\"/form/passable\" value=\"0\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47192112\">No</span></label><label class=\"\"><input type=\"radio\" name=\"/form/passable\" data-name=\"/form/passable\" value=\"2\" data-required=\"true()\" data-type-xml=\"select1\">\n      <i class=\"webform-svg-icon radio\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g>\n    <path class=\"background\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3a9 9 0 100 18 9 9 0 000-18z\"></path>\n    <path class=\"checkmark\" fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6a6 6 0 110 12 6 6 0 010-12z\"></path>\n  </g>\n</svg></i>\n    <span lang=\"\" class=\"option-label active\" id=\"idp47168896\">Unsure</span></label></div></fieldset><span lang=\"\" class=\"or-required-msg active\" id=\"idp47117296\">This is a required question</span></fieldset>\n    <label class=\"question non-select  type-number\"><span lang=\"\" class=\"question-label active\" id=\"idp47170480\">Optional: How many minutes would it take to pass through the hazard? (Estimate)</span><input type=\"number\" name=\"/form/time\" data-constraint=\".>=0\" data-type-xml=\"decimal\" step=\"any\"><i class=\"webform-svg-icon\"><svg width=\"16\" height=\"16\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10.815 8.894c.07.244.104.504.104.782 0 .452-.073.84-.22 1.163a3.05 3.05 0 01-.584.862c-.242.252-.517.48-.824.684-.307.204-.616.406-.928.607-.311.2-.614.415-.908.645-.294.23-.553.498-.778.804h4.294V16H4.302c0-.52.076-.97.227-1.354.152-.383.357-.726.617-1.029a5.36 5.36 0 01.914-.836c.35-.256.72-.516 1.11-.78.199-.136.41-.274.635-.415.225-.14.43-.296.617-.466a2.49 2.49 0 00.467-.575 1.41 1.41 0 00.188-.728c0-.434-.128-.773-.383-1.016-.255-.242-.582-.364-.98-.364-.268 0-.495.062-.68.186a1.39 1.39 0 00-.448.485 2.19 2.19 0 00-.24.664 3.746 3.746 0 00-.072.722H4.51a4.229 4.229 0 01.182-1.424 3.3 3.3 0 01.622-1.15 2.818 2.818 0 011.045-.767c.42-.183.901-.274 1.446-.274.416 0 .811.064 1.188.191.148.05.29.11.424.178a3.677 3.677 0 01-.164-1.205h1.752c.009.238.048.466.117.683.069.217.168.404.298.562.13.158.292.283.487.377.194.094.426.14.694.14.415 0 .765-.125 1.05-.376.286-.252.429-.594.429-1.029 0-.34-.067-.6-.201-.78a1.151 1.151 0 00-.513-.389 2.174 2.174 0 00-.68-.14 13.51 13.51 0 00-.708-.02V3.795c.199.017.41.017.636 0 .225-.017.434-.066.629-.147.195-.08.355-.198.48-.351.125-.153.188-.358.188-.613 0-.384-.13-.677-.389-.882a1.406 1.406 0 00-.895-.306c-.467 0-.82.15-1.058.453-.237.303-.352.684-.343 1.144H9.474c.017-.46.102-.88.253-1.259a2.85 2.85 0 01.636-.977 2.82 2.82 0 01.98-.632A3.46 3.46 0 0112.612 0c.364 0 .727.053 1.09.16.364.106.69.266.98.479.29.213.526.472.707.779.182.307.273.66.273 1.06 0 .435-.106.818-.318 1.15-.212.332-.53.558-.954.677v.026c.502.11.895.349 1.18.715.286.366.429.805.429 1.316 0 .468-.093.886-.279 1.252a2.742 2.742 0 01-.746.92c-.311.247-.67.434-1.077.562-.406.127-.83.191-1.271.191-.51 0-.975-.072-1.395-.217a3.283 3.283 0 01-.417-.176zm-6.69 4.158V4.11H2.66c-.052.34-.16.626-.325.855a1.95 1.95 0 01-.603.556 2.45 2.45 0 01-.804.294 4.428 4.428 0 01-.928.07v1.367h2.283v5.8h1.843z\" fill=\"#000\" fill-rule=\"evenodd\"></path></svg></i><span lang=\"\" class=\"or-constraint-msg active\" id=\"idp47117856\">Please input a number greater than 0</span></label>\n    <label class=\"question non-select or-appearance-hide-input \"><span lang=\"\" class=\"question-label active\" id=\"idp47171632\">Required: Location of the hazard</span><span class=\"required\" id=\"idp47118416\">*</span><input type=\"text\" name=\"/form/location\" data-required=\"true()\" data-type-xml=\"geopoint\"><span lang=\"\" class=\"or-required-msg active\" id=\"idp47118304\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\" id=\"idp47164944\">Optional: Take a photo</span><input type=\"file\" name=\"/form/photo\" data-constraint=\"count-selected(.)<=3\" data-type-xml=\"binary\" accept=\"image/*\" id=\"idp47164080\"><span class=\"or-constraint-msg active\" lang=\"\" data-i18n=\"constraint.invalid\">Value not allowed</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\" id=\"idp47166096\">Optional: Any additional comments?</span><textarea name=\"/form/comments\" data-type-xml=\"string\"></textarea></label>\n  \n<fieldset id=\"or-calculated-items\" style=\"display:none;\"><label class=\"calculation non-select \"><input type=\"hidden\" name=\"/form/meta/instanceID\" data-calculate=\"concat('uuid:', uuid())\" data-type-xml=\"string\"></label></fieldset></form>",
+  "languageMap": {},
+  "model": "<model><instance>\n        <form xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:orx=\"http://openrosa.org/xforms\" xmlns:odk=\"http://www.opendatakit.org/xforms\" id=\"survey\">\n          <generated_note_surveyDescription/>\n          <generated_note_form_submit_text/>\n          <generated_note_form_footer/>\n          <generated_note_prompt_submitted/>\n          <type/>\n          <type_other/>\n          <passable/>\n          <time/>\n          <location/>\n          <photo/>\n          <comments/>\n          <meta>\n            <instanceID/>\n          </meta>\n        </form>\n      </instance></model>",
+  "success": true,
+  "surveyFormJson": {
+    "footer": {
+      "content": "%3Ca%20target%3D'_blank'%20style%3D'color%3A%23FFFFFF%3B'%20href%3D'https%3A%2F%2Fwww.esri.com%2Fproducts%2Fsurvey123'%3EPowered%20by%20ArcGIS%20Survey123%3C%2Fa%3E",
+      "isVisible": true
+    },
+    "header": {
+      "content": "%3Cp%20style%3D'text-align%3Acenter'%20title%3D'Required%3A%20Type%20of%20Hazard'%3ERequired%3A%20Type%20of%20Hazard%3C%2Fp%3E",
+      "isVisible": true
+    },
+    "layerName": "survey",
+    "portalUrl": "https://www.arcgis.com",
+    "questions": [
+      {
+        "calculation": {
+          "expression": ""
+        },
+        "fieldType": "esriFieldTypeString",
+        "id": "/form/generated_note_surveyDescription",
+        "label": "",
+        "name": "generated_note_surveyDescription",
+        "position": 1,
+        "readOnly": {
+          "expression": "true()"
+        },
+        "type": "esriQuestionTypeNote"
+      },
+      {
+        "appearance": {
+          "layout": "vertical"
+        },
+        "calculation": {},
+        "choices": {
+          "items": [
+            {
+              "label": "Water over road",
+              "position": 0,
+              "value": "road_water"
+            },
+            {
+              "label": "Downed hydro pole",
+              "position": 1,
+              "value": "hydro_down"
+            },
+            {
+              "label": "Downed tree",
+              "position": 2,
+              "value": "tree_down"
+            },
+            {
+              "label": "Damaged road surface",
+              "position": 3,
+              "value": "road_damage"
+            },
+            {
+              "label": "Debris on road",
+              "position": 4,
+              "value": "road_debris"
+            },
+            {
+              "label": "Collapsed bridge",
+              "position": 5,
+              "value": "bridge_collapsed"
+            },
+            {
+              "label": "Other",
+              "position": 6,
+              "value": "other"
+            }
+          ],
+          "other": {
+            "isEnabled": false
+          }
+        },
+        "choicesOrder": {
+          "type": "default"
+        },
+        "fieldLength": "255",
+        "fieldName": "type",
+        "fieldType": "esriFieldTypeString",
+        "id": "/form/type",
+        "isRequired": true,
+        "label": "Type",
+        "name": "type",
+        "position": 5,
+        "readOnly": {
+          "expression": "false()"
+        },
+        "type": "esriQuestionTypeSingleChoice"
+      },
+      {
+        "calculation": {
+          "expression": ""
+        },
+        "defaultValue": "",
+        "fieldName": "type_other",
+        "fieldType": "esriFieldTypeString",
+        "id": "/form/type_other",
+        "isRequired": false,
+        "label": "Other",
+        "name": "type_other",
+        "position": 6,
+        "readOnly": {
+          "expression": "false()"
+        },
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "inputMask": {
+            "customFormat": "",
+            "isEnabled": false
+          },
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "appearance": {
+          "layout": "vertical"
+        },
+        "calculation": {},
+        "choices": {
+          "items": [
+            {
+              "label": "Yes",
+              "position": 0,
+              "value": "2"
+            },
+            {
+              "label": "No",
+              "position": 1,
+              "value": "0"
+            },
+            {
+              "label": "Unsure",
+              "position": 2,
+              "value": "2"
+            }
+          ],
+          "other": {
+            "isEnabled": false
+          }
+        },
+        "choicesOrder": {
+          "type": "default"
+        },
+        "fieldName": "passable",
+        "fieldType": "esriFieldTypeString",
+        "id": "/form/passable",
+        "isRequired": true,
+        "label": "Required: Can you pass through the hazard?",
+        "name": "passable",
+        "position": 7,
+        "readOnly": {
+          "expression": "false()"
+        },
+        "type": "esriQuestionTypeSingleChoice"
+      },
+      {
+        "calculation": {
+          "expression": ""
+        },
+        "defaultValue": "",
+        "fieldName": "time",
+        "fieldType": "esriFieldTypeDouble",
+        "id": "/form/time",
+        "isRequired": false,
+        "label": "Optional: How many minutes would it take to pass through the hazard? (Estimate)",
+        "name": "time",
+        "position": 8,
+        "readOnly": {
+          "expression": "false()"
+        },
+        "type": "esriQuestionTypeNumber",
+        "validation": {
+          "isInteger": false,
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": {
+          "expression": ""
+        },
+        "defaultExtent": {
+          "spatialReference": {}
+        },
+        "defaultValue": {
+          "spatialReference": {}
+        },
+        "displayFormats": [
+          "DD"
+        ],
+        "fieldType": "esriFieldTypeGeometry",
+        "id": "/form/location",
+        "inputTools": [
+          "pin",
+          "search",
+          "locate"
+        ],
+        "isDeviceLocationRequired": false,
+        "isRequired": true,
+        "label": "Required: Location of the hazard",
+        "maps": [
+          {
+            "isDefault": true,
+            "name": "connect_",
+            "type": "basemap"
+          }
+        ],
+        "name": "location",
+        "position": 9,
+        "readOnly": {
+          "expression": "false()"
+        },
+        "type": "esriQuestionTypeGeoPoint"
+      },
+      {
+        "calculation": {},
+        "fieldType": "esriAttachment",
+        "id": "/form/photo",
+        "inputTools": [
+          "camera"
+        ],
+        "isRequired": false,
+        "label": "Optional: Take a photo",
+        "name": "photo",
+        "position": 10,
+        "readOnly": {
+          "expression": "false()"
+        },
+        "type": "esriQuestionTypeImage",
+        "validation": {
+          "allowFileSize": {
+            "max": 10,
+            "min": 0
+          },
+          "allowFileType": {
+            "exts": [
+              "*"
+            ],
+            "type": "image"
+          },
+          "inputCount": {
+            "isEnabled": true,
+            "max": 3
+          }
+        }
+      },
+      {
+        "calculation": {
+          "expression": ""
+        },
+        "defaultValue": "",
+        "fieldLength": "1000",
+        "fieldName": "comments",
+        "fieldType": "esriFieldTypeString",
+        "id": "/form/comments",
+        "isRequired": false,
+        "label": "Optional: Any additional comments?",
+        "name": "comments",
+        "position": 11,
+        "readOnly": {
+          "expression": "false()"
+        },
+        "type": "esriQuestionTypeTextArea",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      }
+    ],
+    "rules": [],
+    "settings": {
+      "draftInfo": {
+        "isEnabled": false
+      },
+      "instanceName": null,
+      "isVersionLocked": true,
+      "multiSubmissionInfo": {
+        "maxAllowed": 0,
+        "showSubmitAnotherTip": false
+      },
+      "notificationsInfo": {},
+      "openStatusInfo": {
+        "closedStatusContent": "",
+        "schedule": {
+          "end": null,
+          "start": null
+        },
+        "status": "open"
+      },
+      "recordStartEndTime": {
+        "fieldInfos": [],
+        "isEnabled": false
+      },
+      "thankYouScreenContent": "%3Cp%20style%3D%22text-align%3Acenter%3B%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%20style%3D%22text-align%3Acenter%3B%22%3E%3Cimg%20alt%3D%22null%22%20src%3D%22data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGZpbGw9IiMzMTg3MkUiIGN4PSIzMiIgY3k9IjMyIiByPSIzMiIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0yMi42NjEgMzAuMjQ2bDUuMTgyIDQuOTg3TDQxLjU1MiAyMiA0NSAyNS40NjEgMjcuNzQ3IDQyIDE5IDMzLjQ5OHoiLz48L2c%2BPC9zdmc%2B%22%3E%3C%2Fp%3E%3Cp%20style%3D%22text-align%3Acenter%3B%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%20style%3D%22text-align%3Acenter%3B%22%3E%3Cstrong%20style%3D%22font-size%3A16px%3B%22%3EGreat!%20Your%20report%20was%20sent%20successfully.%20Thanks.%3C%2Fstrong%3E%3C%2Fp%3E"
+    },
+    "subHeader": {
+      "content": "",
+      "isVisible": true
+    },
+    "submit": {
+      "buttonText": "Submit"
+    },
+    "themes": [
+      {
+        "form": {
+          "backgroundColor": "#ffffff",
+          "backgroundOpacity": 1,
+          "inputBackgroundColor": "#ffffff",
+          "inputTextColor": "#505050",
+          "primaryColor": "#31872E",
+          "primaryTextColor": "#ffffff",
+          "textColor": "#505050"
+        },
+        "header": {
+          "backgroundColor": "#31872E",
+          "textColor": "#ffffff"
+        },
+        "id": null,
+        "isEnabled": true,
+        "name": "theme-color1",
+        "webpage": {
+          "backgroundColor": "#B7DCC7"
+        }
+      }
+    ],
+    "version": "3.13"
+  },
+  "transformerVersion": "1.42.0"
+}

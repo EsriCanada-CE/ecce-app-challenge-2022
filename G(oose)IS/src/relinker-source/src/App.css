@@ -1,0 +1,124 @@
+.logoBox {
+  z-index: 996;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 4px;
+}
+
+.logo {
+  width: 175px;
+  height: auto !important;
+}
+
+.sidebar {
+  z-index: 999;
+  position: absolute;
+  top: 20vh;
+  left: 0px;
+  background-color: white;
+  /* padding: 5px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hazardInfoPanel {
+  z-index: 999;
+  position: absolute;
+  top: 3vh;
+  right: 3vh;
+  min-width: 12vw;
+  margin-left: 3vh;
+  background-color: white;
+  padding: 5px;
+}
+
+td {
+  padding: 4px;
+}
+
+.hazardTable {
+  margin-bottom: 0px !important;
+  max-width: 20vw !important;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5vh;
+  max-height: 50%;
+  margin-bottom: 10px;
+}
+
+.hazardImage {
+  max-height: 100% !important;
+  width: auto !important;
+}
+
+.imageSides {
+  width: 20px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.noHazard {
+  text-align: center;
+  height: 80%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(235, 58, 5);
+}
+
+.close {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.baseMapMenu {
+  z-index: 998;
+  position: absolute;
+  top: 3vh;
+  right: 3vh;
+  background-color: white;
+  padding: 5px;
+  min-width: 12vw;
+}
+
+.baseMapToggler {
+  padding: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+label {
+  margin-bottom: 3px;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.icon {
+  cursor: pointer;
+  padding: 8px;
+  height: 6vh;
+}
+
+.drawRoute {
+  z-index: 997;
+  position: absolute;
+  top: 3vh;
+  right: 3vh;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+

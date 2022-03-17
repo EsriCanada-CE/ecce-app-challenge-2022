@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<h:html xmlns:esri="http://esri.com/xforms" xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:odk="http://www.opendatakit.org/xforms">
+  <h:head>
+    <h:title>&lt;p style='text-align:center' title='Required: Type of Hazard'&gt;Required: Type of Hazard&lt;/p&gt;</h:title>
+    <model>
+      <instance>
+        <form id="survey">
+          <generated_note_surveyDescription/>
+          <generated_note_form_submit_text/>
+          <generated_note_form_footer/>
+          <generated_note_prompt_submitted/>
+          <type/>
+          <type_other/>
+          <passable/>
+          <time/>
+          <location/>
+          <photo/>
+          <comments/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </form>
+      </instance>
+      <bind nodeset="/form/generated_note_surveyDescription" readonly="true()" type="string"/>
+      <bind nodeset="/form/generated_note_form_submit_text" readonly="true()" type="string"/>
+      <bind nodeset="/form/generated_note_form_footer" readonly="true()" type="string"/>
+      <bind nodeset="/form/generated_note_prompt_submitted" readonly="true()" type="string"/>
+      <bind nodeset="/form/type" type="select1" jr:requiredMsg="This is a required question" required="true()" esri:fieldLength="255"/>
+      <bind nodeset="/form/type_other" type="string" relevant="selected( /form/type , 'other')"/>
+      <bind nodeset="/form/passable" type="select1" jr:requiredMsg="This is a required question" required="true()"/>
+      <bind nodeset="/form/time" type="decimal" jr:constraintMsg="Please input a number greater than 0" constraint=".&gt;=0"/>
+      <bind nodeset="/form/location" type="geopoint" jr:requiredMsg="This is a required question" required="true()"/>
+      <bind nodeset="/form/photo" type="binary" constraint="count-selected(.)&lt;=3" esri:parameters="max-size=10"/>
+      <bind nodeset="/form/comments" type="string" esri:fieldLength="1000"/>
+      <bind nodeset="/form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/form/generated_note_surveyDescription">
+      <hint>&lt;p&gt;You can report an emergency 24/7. If the issue is an immediate risk to public safety, please call 911.&lt;/p&gt;</hint>
+    </input>
+    <input ref="/form/generated_note_form_submit_text">
+      <label>Submit</label>
+    </input>
+    <input ref="/form/generated_note_form_footer">
+      <label>&lt;a target='_blank' style='color:#FFFFFF;' href='https://www.esri.com/products/survey123'&gt;Powered by ArcGIS Survey123&lt;/a&gt;</label>
+    </input>
+    <input ref="/form/generated_note_prompt_submitted">
+      <label>&lt;p style="text-align:center;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align:center;"&gt;&lt;img alt="null" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGZpbGw9IiMzMTg3MkUiIGN4PSIzMiIgY3k9IjMyIiByPSIzMiIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0yMi42NjEgMzAuMjQ2bDUuMTgyIDQuOTg3TDQxLjU1MiAyMiA0NSAyNS40NjEgMjcuNzQ3IDQyIDE5IDMzLjQ5OHoiLz48L2c+PC9zdmc+"&gt;&lt;/p&gt;&lt;p style="text-align:center;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p style="text-align:center;"&gt;&lt;strong style="font-size:16px;"&gt;Great! Your report was sent successfully. Thanks.&lt;/strong&gt;&lt;/p&gt;</label>
+    </input>
+    <select1 ref="/form/type">
+      <label>Type</label>
+      <item>
+        <label>Water over road</label>
+        <value>road_water</value>
+      </item>
+      <item>
+        <label>Downed hydro pole</label>
+        <value>hydro_down</value>
+      </item>
+      <item>
+        <label>Downed tree</label>
+        <value>tree_down</value>
+      </item>
+      <item>
+        <label>Damaged road surface</label>
+        <value>road_damage</value>
+      </item>
+      <item>
+        <label>Debris on road</label>
+        <value>road_debris</value>
+      </item>
+      <item>
+        <label>Collapsed bridge</label>
+        <value>bridge_collapsed</value>
+      </item>
+      <item>
+        <label>Other</label>
+        <value>other</value>
+      </item>
+    </select1>
+    <input ref="/form/type_other">
+      <label>Other</label>
+    </input>
+    <select1 ref="/form/passable">
+      <label>Required: Can you pass through the hazard?</label>
+      <item>
+        <label>Yes</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>0</value>
+      </item>
+      <item>
+        <label>Unsure</label>
+        <value>2</value>
+      </item>
+    </select1>
+    <input ref="/form/time">
+      <label>Optional: How many minutes would it take to pass through the hazard? (Estimate)</label>
+    </input>
+    <input appearance="hide-input" ref="/form/location">
+      <label>Required: Location of the hazard</label>
+    </input>
+    <upload mediatype="image/*" appearance="multiline" esri:style="method=camera" ref="/form/photo">
+      <label>Optional: Take a photo</label>
+    </upload>
+    <input appearance="multiline" ref="/form/comments">
+      <label>Optional: Any additional comments?</label>
+    </input>
+  </h:body>
+</h:html>

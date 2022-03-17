@@ -1,0 +1,62 @@
+{
+    "access": "public",
+    "accessInformation": null,
+    "advancedSettings": null,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "commentsEnabled": true,
+    "created": 1645410851000,
+    "culture": "en-gb",
+    "description": "",
+    "documentation": null,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "555147d905cb44f78b233fbbdcc74f88",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "itemControl": "admin",
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "licenseInfo": null,
+    "listed": false,
+    "modified": 1645490760000,
+    "name": "555147d905cb44f78b233fbbdcc74f88.zip",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 2,
+    "orgId": "DwLTn0u9VBSZvUPe",
+    "owner": "jawsousa_uwaterloo",
+    "ownerFolder": "de97a3a9643f4fdcbf1383de0eb2037c",
+    "properties": null,
+    "protected": false,
+    "proxyFilter": null,
+    "scoreCompleteness": 41,
+    "screenshots": [
+    ],
+    "size": 54233,
+    "snippet": "Alert officials of road hazards",
+    "spatialReference": null,
+    "subInfo": 0,
+    "tags": [
+        "road hazards"
+    ],
+    "thumbnail": "thumbnail/Report_road_emergency.jpg",
+    "title": "Road Hazard Reporter",
+    "type": "Form",
+    "typeKeywords": [
+        "Form",
+        "Survey123",
+        "Survey123 Connect",
+        "Survey123 Hub",
+        "xForm"
+    ],
+    "url": null
+}
