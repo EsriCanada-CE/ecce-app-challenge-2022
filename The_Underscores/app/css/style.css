@@ -1,0 +1,496 @@
+/* CSS Stylesheet referenced in all HTML files in this project */
+
+/* -------------------------------------------------------- */
+/* SHARED STYLES */
+
+html, body, #viewDiv {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+body {
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: bold;
+    color: #001B48;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.text_link a {
+    font-weight: bold;
+    color: #97CADB !important;
+    text-decoration: none;
+}
+.text_link a:hover {
+    color: #001B48 !important;
+}
+
+.centered {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.transparent_background {
+    background-color: rgba(0, 0, 0, 0.829) !important;
+    color: #97CADB !important;
+    border-radius: 10px;
+}
+.transparent_background h1 {
+    color: #97CADB !important;
+}
+
+
+/* -------------------------------------------------------- */
+/* SPECIFIC COMPONENT STYLES */
+
+/* Navbar on all pages */
+.navbar, .dropdown-menu, .dropdown-item:hover, .dropdown-item:after {
+    background-color: black;
+}
+.navbar li, .navbar-toggler{
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar a {
+    color: grey;
+}
+.navbar a:hover {
+    color: #97CADB !important;
+    font-weight: bold;
+    
+}
+
+/* Landing page Jumbotron (containing Our Mission) */
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.829);
+    color: #97CADB;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.jumbotron h1 {
+    color: #97CADB;
+}
+.btn, .btn:after {
+    background-color: #97CADB;
+    color: #001B48;
+    padding: 2%;
+    border: 1px solid #001B48;
+}
+.btn:hover {
+    background-color: #001B48;
+    color: #97CADB;
+    border: 1px solid #97CADB;
+}
+
+/* Demo section */
+.parent {
+    text-align: center;
+    margin: 2%;
+}
+.child {
+    display: inline-block;
+    border-radius: 25px;
+    vertical-align: middle;
+    background-color: white;
+    text-align: left;
+    padding: 3%;
+    margin: 2%;
+}
+#demo_img {
+    background: url('../img/map_app_demo.jpg') no-repeat center;
+    background-size: contain;
+}
+#demo_video_link {
+    width: 50%;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#demo_video_link h1 {
+    font-size: 150%;
+}
+
+/* QR Code Section (on index.html and app.html) */
+.qr_code {
+    background-color: white;
+    border-radius: 25px;
+    margin: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    padding: 5%;
+}
+.qr_code img {
+    width: 25%;
+}
+#main_app .qr_code {
+    color: #001B48;
+}
+
+#main_app img {
+    width: 20%;
+}
+
+/*Video (on index.html)*/
+.video {
+    background-color: white;
+    border-radius: 25px;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
+/* About Us section */
+#about_us {
+    margin: 2%;
+    background: rgba(0, 27, 72, 0.829);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+#about_us h1 {
+    color: #97CADB;
+}
+#about_us h5 {
+    font-weight: bold;
+}
+.about_us_card {
+    margin: auto;
+    border: none !important;
+}
+
+/* Be Prepared Page */
+#prepare img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#prepare .child {
+    margin: 1%;
+    padding: 0;
+}
+
+/* Contact Form */
+#contact label {
+    font-size: 130%;
+    font-weight: bold;
+    padding: 1%;
+}
+
+/* Main Web Map Application (app.html) */
+.embed-container {
+    position: relative;
+    padding-bottom: 80%;
+    height: 0;
+    max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+small {
+    position: absolute;
+    z-index: 40;
+    bottom: 0;
+    margin-bottom: -15px;
+}
+#main_app .text_link a:hover {
+    color: #97CADB !important;
+}
+
+
+/* Footer on all pages */
+#footer {
+    margin: 0px;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: black;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+#footer p {
+    color: grey;
+}
+
+
+/* -------------------------------------------------------- */
+/* SCREEN SIZE SPECIFIC */
+
+/* Extremely small screen devices (600px width and below) */
+@media screen and (max-width: 600px) {
+
+    /* Landing page Jumbotron (containing Our Mission) */
+    .jumbotron {
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+    .jumbotron p {
+        font-size: 80%;
+    }
+    .jumbotron h1 {
+        font-size: 200%;
+    }
+
+    /* Demo section */
+    .parent {
+        display: block;
+    }
+    #demo p {
+        padding: 2%;
+        font-size: 100%;
+    }
+    #demo h1 {
+        padding: 2%;
+        font-size: 120%;
+    }
+    #demo_img {
+        display: none;
+    }
+    .container {
+        margin-top: 35%;
+    }
+
+    /* About Us section */
+    .about_us_card {
+        width: 70%;
+    }
+    .card-body p, .card-body h1 {
+        font-size: 100%;
+    }
+
+    /* High Risk Areas Page */
+    #risk img {
+        width: 75%;
+    }
+
+    /* QR Code */
+    .large_only {
+        display: none;
+    }
+    .qr_code img {
+        width: 40% !important;
+    }
+
+    /* Footer on all pages */
+    #footer p {
+        font-size: 150%;
+    }
+
+}
+
+
+/* Small screen devices (600px width and above) */
+@media screen and (min-width: 600px) and (max-width: 899px) {
+
+    /* Landing page Jumbotron (containing Our Mission) */
+    .jumbotron {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    .jumbotron p {
+        font-size: 120%;
+    }
+    .jumbotron h1 {
+        font-size: 250%;
+    }
+
+    /* Demo section */
+    .parent {
+        display: block;
+    }
+    #demo p {
+        font-size: 95%;
+    }
+    #demo h1 {
+        font-size: 120%;
+    }
+    #demo_img {
+        height: 40vh;
+        width: 60%;
+    }
+
+    /* About Us section */
+    .about_us_card {
+        width: 75%;
+    }
+
+    /* Be Prepared Page */
+    #prepare .child_type_1 img {
+        height: 250px;
+    }
+    #prepare .child_type_2 img {
+        height: 300px;
+    }
+    #prepare .child {
+        width: 80%;
+    }
+
+    /* High Risk Areas Page */
+    #risk img {
+        width: 75%;
+    }
+
+    /* Shared component holding content on most pages (except main landing page) */
+    .container {
+        margin-top: 20%;
+    }
+
+    /* QR Code */
+    .large_only {
+        display: none;
+    }
+
+    /* Footer on all pages */
+    #footer p {
+        font-size: 120%;
+    }
+
+    
+
+}
+
+
+/* Medium to large screen devices (900px width and above) */
+@media screen and (min-width: 900px) {
+
+    /* Landing page Jumbotron (containing Our Mission) */
+    .jumbotron {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    .jumbotron p {
+        font-size: 110%;
+    }
+    .jumbotron h1 {
+        font-size: 250%;
+    }
+
+    /* Demo section */
+    .child {
+        height: 80%;
+        width: 45%;
+    }
+    #demo p {
+        font-size: 95%;
+    }
+    #demo h1 {
+        font-size: 120%;
+    }
+    #demo_img {
+        height: 60vh;
+    }
+
+    /* About Us section */
+    .about_us_card {
+        width: 80%;
+    }
+
+    /* Be Prepared Page */
+    #prepare .child_type_1 img {
+        height: 250px;
+    }
+    #prepare .child_type_2 img {
+        height: 300px;
+    }
+    #prepare .child_type_1 {
+        width: 45%;
+    }
+    #prepare .child_type_2 {
+        width: 80%
+    }
+
+    /* High Risk Areas Page */
+    #risk img {
+        width: 70%;
+    }
+
+    /* QR Code */
+    .small_only {
+        display: none;
+    }
+
+}
+
+/* Very large screen devices (>1200px width) */
+@media screen and (min-width: 1200px) {
+
+    p {
+        font-size: 120%;
+    }
+
+    /* Landing page Jumbotron (containing Our Mission) */
+    .jumbotron p {
+        font-size: 120%;
+    }
+    .jumbotron h1 {
+        font-size: 250%;
+    }
+
+    /* Demo section */
+    #demo p {
+        font-size: 120%;
+    }
+    #demo h1 {
+        font-size: 150%;
+    }
+    #demo_img {
+        height: 80vh;
+    }
+
+    /* About Us section */
+    .about_us_card {
+        width: 70%;
+    }
+
+    /* Be Prepared Page */
+    #prepare .child_type_1 img {
+        height: 250px;
+    }
+    #prepare .child_type_2 img {
+        height: 250px;
+    }
+    #prepare .child {
+        width: 30%;
+    }
+
+    /* QR Code */
+    .small_only {
+        display: none;
+    }
+
+}
+    

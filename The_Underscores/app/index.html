@@ -1,0 +1,289 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>FloodRouteFinder Home</title>
+  <meta name="description" content="ECCE App Challenge 2022 - The Underscores">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Quicksand:wght@300;400&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+  <!-- Fixed-top Navigation Bar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand logo" href="index.html">
+        <img src="img/logo.png" width="50" height="50" alt="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto z">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Our Mission</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="app.html" target="_blank">FloodRouteFinder</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#demo_video_link">Demo</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about_us">About Us</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Quick Links
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="danger.html">Dangers</a></li>
+              <li><a class="dropdown-item" href="risk.html">High Risk Areas</a></li>
+              <li><a class="dropdown-item" href="live.html">Check for Flood Warnings</a></li>
+              <li><a class="dropdown-item" href="prepare.html">How to Prepare</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Send us a comment!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mission Statement Jumbotron -->
+  <header class="jumbotron jumbotron-fluid" id="mission">
+    <div class="container-fluid text-center">
+      <h1>Our Mission</h1>
+      <p>
+        Of all the natural hazards/disasters that Canada faces, floods are the most frequent. A flood could result in
+        damage
+        to property, cause power outages, make transportation challenging, and pose a danger to you and your loved ones.
+      </p>
+      <p>
+        We want to make sure you are prepared, and have the information you need at your fingertips the moment you need
+        it. We know where the
+        safe spaces in your area are, and can help you to get to them quickly in the event of a major flood. Our app is
+        powered by
+        Canadian open data and Esri technology, to give you the best possible experience when time is of the essence.
+        Locate the nearest hospitals,
+        and find the best route to get you there.
+
+      </p>
+      <p><a href="app.html" target="_blank" class="btn btn-primary btn-lg" role="button">FloodRouteFinder</a></p>
+    </div>
+  </header>
+
+  <!-- Demo Section -->
+  <div class="parent" id="demo">
+    <div class="child">
+      <h1>FloodRouteFinder</h1>
+      <p>
+        Not only does the FloodRouteFinder app serve as a general informational application that informs users both
+        about dangers of floods in
+        their area, it also provides a guide to the flood resilient infrastructure that exists within their area
+        already. The application assumes
+        a hypothetical disaster scenario in order to provide users with an ideal path to a center with power in the
+        event that power is lost due to
+        inclement weather and flooding (i.e. a hospital or any infrastructure unaffected by power loss or with a
+        generator).
+      </p>
+      <p class="text_link centered">
+        <a href="app.html" target="_blank">Try the FloodRouteFinder app today</a>
+      </p>
+      <p>
+        Check out the Quick Links section at the top of this page to find out if you are in a high flood risk area, what
+        you should
+        do today to prepare for any future flooding, and access the latest flood-related weather data in Canada to make
+        sure there isn't
+        an imminent likelihood of a flood in your city.
+      </p>
+    </div>
+    <div class="child" id="demo_img">
+    </div>
+  </div>
+
+  <div id="demo_video_link" class="transparent_background centered center">
+    <h1>Want to see FloodRouteFinder in Action?</h1>
+    <br>
+    <p>
+      <a href="https://drive.google.com/file/d/1W7U_u8Wc_KmnPDvR84yxCUfuJxTLAY9l/view" target="_blank" class="btn btn-primary btn-lg" role="button">
+        Demo Video
+      </a>
+    </p>
+  </div>
+
+  <div class="centered qr_code">
+    <h1>QR Code</h1>
+    <p class="large_only">On your desktop or laptop, but want to try the app on your phone? Scan the QR code below with
+      your mobile device to open the
+      FloodRouteFinder app, optimized for mobile viewing.
+    </p>
+    <p class="small_only">On your mobile device? Check out the FloodRouteFinder app optimized for mobile viewing, using
+      the QR code below.</p>
+    <br>
+    <img src="img/QRcode.png" class="center">
+    <br>
+    <p class="small_only text_link">Did you know you can scan a QR code directly on your mobile device using a
+      screenshot? Take a screenshot of this
+      page, then check out <a
+        href="https://www.istaunch.com/scan-qr-code-inside-your-phone-without-using-another-phone/">this simple
+        guide</a> to find out how to
+      do this with the free Google Lens app (often comes already built in to newer phones).
+    </p>
+  </div>
+
+
+  <!-- About Us Section -->
+  <div id="about_us">
+    <h1>About Us</h1>
+    <div id="about_us_cards">
+      <div class="card mb-3 about_us_card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Cyril.PNG" class="img-fluid card-img-top rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Cyril Massoud</h5>
+              <p class="card-text">Cyril is a student at NSCC's Centre of Geographic Sciences (COGS) in the Geographic
+                Information Systems graduate certificate program.
+                He has a Bachelor of Arts degree from Concordia University, and is passionate about climate change
+                adaptation and sustainability.
+                Cyril is particularly interested in using GIS as a tool to better understand the extent of the human
+                impact on Earth's geography, ecosystems, and changing climate.
+              </p>
+              <p class="card-text">Outside of school/work, Cyril likes to play all kinds of sports, including basketball
+                and soccer. He enjoys all things outdoors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 about_us_card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Tomas.PNG" class="img-fluid card-img-top rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tomas Milla-Koch</h5>
+              <p class="card-text">Tomas is a student at NSCC's Centre of Geographic Sciences (COGS) in the Remote
+                Sensing
+                graduate certificate program.
+                He has a Bachelor of Science degree from McGill University in Earth System Science, where he found
+                interests in the fields of Geodynamics, Volcanology, Glaciology, Climatology, Programming, Mathematical
+                Modeling, and more.
+                Tomas has conducted research in sediment compaction and its contribution to sea level change, as well as
+                sensitivity analyses of sea level model outputs to ice history.
+              </p>
+              <p class="card-text">Outside of school/work, Tomas likes playing music, woodworking and trying to
+                skateboard.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 about_us_card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Andrew.PNG" class="img-fluid card-img-top rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Andrew Dupuis</h5>
+              <p class="card-text">Andrew is a student at NSCC's Centre of Geographic Sciences (COGS) in the Remote
+                Sensing graduate certificate program.
+                He has a Bachelor of Science degree in Biology from Saint Mary's University, where he conducted research
+                in marine mammal conservation through DNA analysis and population genetics, and did an Honours thesis
+                mapping the movement patterns of the Sable Island Horses.
+                Andrew has worked in scientific content creation, tech support, and most recently software quality
+                assurance and development.
+              </p>
+              <p class="card-text">Outside of school/work, Andrew likes hiking, bouldering and playing the piano.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contact Us Section -->
+  <header class="jumbotron jumbotron-fluid" id="contact">
+    <div class="container-fluid text-center">
+      <h1>Contact Us</h1>
+      <p>
+        Please let us know what you think of our website and the FloodRouteFinder app, we would love to hear your
+        feedback!
+        What did we miss? What could we improve in our next release?
+      </p>
+      <!-- HTML form will open mail app to send message.-->
+      <form action="mailto:tomasmillakoch97@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" name="Contact-Name" placeholder="Enter your name">
+        <br>
+        <label for="exampleInputMessage">Message</label>
+        <textarea class="form-control" id="exampleInputMessage" name="Contact-Message"
+          placeholder="Enter your message"></textarea>
+        <br>
+        <button type="submit" value="Submit" class="btn btn-primary">Send</button>
+      </form>
+      <br>
+      <p>
+        Use the form above to start an email, which will open in your default email application.
+      </p>
+    </div>
+  </header>
+
+  <div id="footer">
+    <p>ECCE App Challenge 2022</p>
+  </div>
+
+  <!-- Send us a comment Section (not necessary if not enough time) -->
+
+
+
+
+  <!--Bootstrap Bundle-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
