@@ -1,0 +1,42 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "MetroStations_4598": {
+      "display": true
+    },
+    "17fe2ed6a34-layer-10": {
+      "display": true
+    },
+    "aef000c6842847648f9c3a1e03c73349": {
+      "display": true
+    },
+    "421d412fb64046fdacdcae52831df4c6": {
+      "display": true
+    },
+    "Temp_2065_2073": {
+      "display": true
+    },
+    "Temp_2065_2073_0": {
+      "display": true
+    },
+    "Precipitation_2065_5374": {
+      "display": true
+    },
+    "Precipitation_2065_5374_0": {
+      "display": true
+    }
+  }
+}

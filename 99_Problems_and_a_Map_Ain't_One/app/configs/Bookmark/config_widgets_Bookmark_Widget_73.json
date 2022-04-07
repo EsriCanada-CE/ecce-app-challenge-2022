@@ -1,0 +1,352 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "GTHA",
+      "name": "GTHA",
+      "extent": {
+        "xmin": -9202195.843303856,
+        "ymin": 5254104.594302165,
+        "xmax": -8541779.918920107,
+        "ymax": 5621002.330070914,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -9202195.843303856,
+                "ymin": 5254104.594302165,
+                "xmax": -8541779.918920107,
+                "ymax": 5621002.330070914,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/base64Img_widgets_Bookmark_Widget_73_1_1648828642028.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Stations_Metro_1754": {
+          "selected": true
+        },
+        "17fe2ed6a34-layer-10": {
+          "selected": true
+        },
+        "aef000c6842847648f9c3a1e03c73349": {
+          "selected": true
+        },
+        "421d412fb64046fdacdcae52831df4c6": {
+          "selected": true
+        },
+        "Temp_2065_2073": {
+          "selected": false
+        },
+        "Precipitation_2065_5374": {
+          "selected": false
+        }
+      },
+      "_uID": 36,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Toronto",
+      "name": "Toronto",
+      "extent": {
+        "xmin": -8833457.146720557,
+        "ymin": 5409965.123858144,
+        "xmax": -8828297.647311313,
+        "ymax": 5412831.512418834,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -8833457.146720557,
+                "ymin": 5409965.123858144,
+                "xmax": -8828297.647311313,
+                "ymax": 5412831.512418834,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/base64Img_widgets_Bookmark_Widget_73_2_1648828642030.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Stations_Metro_1754": {
+          "selected": true
+        },
+        "17fe2ed6a34-layer-10": {
+          "selected": true
+        },
+        "aef000c6842847648f9c3a1e03c73349": {
+          "selected": true
+        },
+        "421d412fb64046fdacdcae52831df4c6": {
+          "selected": true
+        },
+        "Temp_2065_2073": {
+          "selected": false
+        },
+        "Precipitation_2065_5374": {
+          "selected": false
+        }
+      },
+      "_uID": 37,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Milton",
+      "name": "Milton",
+      "extent": {
+        "xmin": -8908063.366688984,
+        "ymin": 5386958.322662832,
+        "xmax": -8902903.86727974,
+        "ymax": 5389824.711223522,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -8908063.366688984,
+                "ymin": 5386958.322662832,
+                "xmax": -8902903.86727974,
+                "ymax": 5389824.711223522,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/base64Img_widgets_Bookmark_Widget_73_3_1648828642031.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Stations_Metro_1754": {
+          "selected": true
+        },
+        "17fe2ed6a34-layer-10": {
+          "selected": true
+        },
+        "aef000c6842847648f9c3a1e03c73349": {
+          "selected": true
+        },
+        "421d412fb64046fdacdcae52831df4c6": {
+          "selected": true
+        },
+        "Temp_2065_2073": {
+          "selected": false
+        },
+        "Precipitation_2065_5374": {
+          "selected": false
+        }
+      },
+      "_uID": 38,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Cambridge",
+      "name": "Cambridge",
+      "extent": {
+        "xmin": -8935951.704440424,
+        "ymin": 5368631.511841227,
+        "xmax": -8930792.20503118,
+        "ymax": 5371497.900401917,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -8935951.704440424,
+                "ymin": 5368631.511841227,
+                "xmax": -8930792.20503118,
+                "ymax": 5371497.900401917,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/base64Img_widgets_Bookmark_Widget_73_4_1648828642031.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Stations_Metro_1754": {
+          "selected": true
+        },
+        "17fe2ed6a34-layer-10": {
+          "selected": true
+        },
+        "aef000c6842847648f9c3a1e03c73349": {
+          "selected": true
+        },
+        "421d412fb64046fdacdcae52831df4c6": {
+          "selected": true
+        },
+        "Temp_2065_2073": {
+          "selected": false
+        },
+        "Precipitation_2065_5374": {
+          "selected": false
+        }
+      },
+      "_uID": 39,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Brampton",
+      "name": "Brampton",
+      "extent": {
+        "xmin": -8885861.085093224,
+        "ymin": 5417763.581394462,
+        "xmax": -8880701.585683981,
+        "ymax": 5420629.969955152,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -8885861.085093224,
+                "ymin": 5417763.581394462,
+                "xmax": -8880701.585683981,
+                "ymax": 5420629.969955152,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/base64Img_widgets_Bookmark_Widget_73_5_1648828642032.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Stations_Metro_1754": {
+          "selected": true
+        },
+        "17fe2ed6a34-layer-10": {
+          "selected": true
+        },
+        "aef000c6842847648f9c3a1e03c73349": {
+          "selected": true
+        },
+        "421d412fb64046fdacdcae52831df4c6": {
+          "selected": true
+        },
+        "Temp_2065_2073": {
+          "selected": false
+        },
+        "Precipitation_2065_5374": {
+          "selected": false
+        }
+      },
+      "_uID": 40,
+      "isSaveExtent": true
+    },
+    {
+      "displayName": "Elmira",
+      "name": "Elmira",
+      "extent": {
+        "xmin": -8969161.231959203,
+        "ymin": 5402450.270683685,
+        "xmax": -8964001.73254996,
+        "ymax": 5405316.659244375,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -8969161.231959203,
+                "ymin": 5402450.270683685,
+                "xmax": -8964001.73254996,
+                "ymax": 5405316.659244375,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/base64Img_widgets_Bookmark_Widget_73_6_1648828642033.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "Stations_Metro_1754": {
+          "selected": true
+        },
+        "17fe2ed6a34-layer-10": {
+          "selected": true
+        },
+        "aef000c6842847648f9c3a1e03c73349": {
+          "selected": true
+        },
+        "421d412fb64046fdacdcae52831df4c6": {
+          "selected": true
+        },
+        "Temp_2065_2073": {
+          "selected": false
+        },
+        "Precipitation_2065_5374": {
+          "selected": false
+        }
+      },
+      "_uID": 41,
+      "isSaveExtent": true
+    }
+  ],
+  "bookmarks3D": [],
+  "layout": {
+    "cards": true,
+    "list": false,
+    "defaultMode": "cards"
+  },
+  "editable": false,
+  "syncMode": {
+    "webmap": false,
+    "custom": true
+  },
+  "isSaveLayerVisibility": false
+}

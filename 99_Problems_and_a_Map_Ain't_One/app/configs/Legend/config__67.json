@@ -1,0 +1,29 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "MetroStations_4598": {
+      "selected": true
+    },
+    "17fe2ed6a34-layer-10": {
+      "selected": true
+    },
+    "aef000c6842847648f9c3a1e03c73349": {
+      "selected": false
+    },
+    "421d412fb64046fdacdcae52831df4c6": {
+      "selected": false
+    },
+    "Temp_2065_2073": {
+      "selected": false
+    },
+    "Precipitation_2065_5374": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}
