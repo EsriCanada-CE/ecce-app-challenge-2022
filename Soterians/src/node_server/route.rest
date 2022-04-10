@@ -1,0 +1,2 @@
+
+GET http://localhost:3000/queryToTwitter/tweet?q=&lat=43.729503&long=-79.449696&radius=9&area=west&range=0.4
