@@ -1,10 +1,8 @@
 Hosted on ArcGIS Online:
 
-- AppStudio application: [http://www.arcgis.com/home/item.html?id=2b6d6b2356074c189ef4bfc14831f58a](http://www.arcgis.com/home/item.html?id=2b6d6b2356074c189ef4bfc14831f58a){:target="_blank"}
-
-Hosted on GitHub:
-
-- Web AppBuilder app: [https://esricanada-ce.github.io/ecce-app-challenge-2022/emerGIScy_COORDINATE-ors/app/](https://esricanada-ce.github.io/ecce-app-challenge-2022/emerGIScy_COORDINATE-ors/app/){:target="_blank"}
+- AppStudio application: [http://www.arcgis.com/home/item.html?id=2b6d6b2356074c189ef4bfc14831f58a](http://www.arcgis.com/home/item.html?id=2b6d6b2356074c189ef4bfc14831f58a)
+- Web AppBuilder app: [https://www.arcgis.com/apps/webappviewer/index.html?id=38c1cc97bd914ce4990b41aa8cfbaa99](https://www.arcgis.com/apps/webappviewer/index.html?id=38c1cc97bd914ce4990b41aa8cfbaa99)
+- AppStudio application: [http://www.arcgis.com/home/item.html?id=2b6d6b2356074c189ef4bfc14831f58a](http://www.arcgis.com/home/item.html?id=2b6d6b2356074c189ef4bfc14831f58a)
 
 Steps to open application using AppStudio Player for ArcGIS:
 
