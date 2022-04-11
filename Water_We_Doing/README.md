@@ -67,15 +67,15 @@ Poseidon is designed to help companies, organizations, and individuals visualize
 
 ## Team member profiles
 
-<img src="images/Danilo-Cropped.jpg" alt="Danilo DeVito" width=20%>
+<img src="images/danilo.jpg" alt="Danilo DeVito" width=20%>
 Dani: I am a fourth-year undergraduate student competing in this challenge for the first time. I am majoring in physical geography, with minors in biology and sociology. GIS and remote-sensing courses have been my favourites during my studies, so I am excited to learn more and develop my skills in this challenge! In my spare time, I dabble in graphic design, writing, and literature. I also spend hours poring over old and new maps, discovering what has been discovered before. I hope to one day contribute some of my own knowledge to future cartophiles.
 
 
-<img src="images/Gab-Cropped.jpg" alt="Gabriella Santa Claus" width=20%>
+<img src="images/gab.jpg" alt="Gabriella Santa Claus" width=20%>
 Gaby: I am a fourth-year undergraduate student double-majoring in GIS and Human Geography. Throughout university, I have thoroughly developed my love for GIS and learning about the relationships between place and space. After my undergrad, I aspire to obtain a Masters in Urban Planning and one day become a professional planner. 
 
 
-<img src="images/Ryan-Cropped.jpg" alt="Ryan" width=20%>
+<img src="images/ryan.jpg" alt="Ryan" width=20%>
 Ryan: I enjoy making music, and creating useful mobile apps. My passion for teaching and computers has led me to love GIS because of the opportunity to transform data and delight viewers by weaving meaningful stories. I am in my 4th year at University of Toronto Mississauga studying GIS, Communication Technology, and Computer Science.
 
 ## Data sources and references
