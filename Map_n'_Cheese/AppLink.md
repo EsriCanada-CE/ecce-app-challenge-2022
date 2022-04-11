@@ -1,7 +1,3 @@
-Hosted on GitHub:
-
-- [https://esricanada-ce.github.io/ecce-app-challenge-2022/Map_n'_Cheese/app/](https://esricanada-ce.github.io/ecce-app-challenge-2022/Map_n'_Cheese/app/)
-
 Hosted in ArcGIS Online:
 
 - [https://www.arcgis.com/apps/webappviewer/index.html?id=9ea5ee88772d4c52a9bdc9865e70a205](https://www.arcgis.com/apps/webappviewer/index.html?id=9ea5ee88772d4c52a9bdc9865e70a205)
